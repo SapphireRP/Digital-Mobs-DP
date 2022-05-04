@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "digital",
   "version": "${version}",
 
-  "name": "Tutorial Mod",
+  "name": "Digital Mobs",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "SapphireRP"
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.brendon.tutorialmod.TutorialMod"
+      "net.brendon.digital.DigitalMobs"
     ]
   },
   "mixins": [
-    "tutorialmod.mixins.json"
+    "digital.mixins.json"
   ],
 
   "depends": {
