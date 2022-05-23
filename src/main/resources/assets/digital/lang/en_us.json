@@ -1,4 +1,15 @@
 {
   "item.digital.digivice": "Digivice",
-  "item.digital.huanglongore_ingot": "Huanglongore Ingot"
+  "item.digital.digivice_blue": "Digivice Blue",
+  "item.digital.digivice_gray": "Digivice Gray",
+  "item.digital.digivice_green": "Digivice Green",
+  "item.digital.digivice_orange": "Digivice Orange",
+  "item.digital.digivice_pink": "Digivice Pink",
+  "item.digital.digivice_purple": "Digivice Purple",
+  "item.digital.digivice_red": "Digivice Red",
+  "item.digital.digivice_yellow": "Digivice Yellow",
+
+  "item.digital.huanglongore_ingot": "Huanglongore Ingot",
+
+  "itemGroup.digital.digimon": "Digimon"
 }
