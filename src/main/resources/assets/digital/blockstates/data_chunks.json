@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "digital:block/data_chunks" }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "digital:data_chunks"
+  },
+  "result": "digital:data_shard",
+  "experience": 0.7,
+  "cookingtime": 200
+}

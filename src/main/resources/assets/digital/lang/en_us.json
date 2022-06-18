@@ -1,15 +1,18 @@
 {
-  "item.digital.digivice": "Digivice",
-  "item.digital.digivice_blue": "Digivice Blue",
-  "item.digital.digivice_gray": "Digivice Gray",
-  "item.digital.digivice_green": "Digivice Green",
-  "item.digital.digivice_orange": "Digivice Orange",
-  "item.digital.digivice_pink": "Digivice Pink",
-  "item.digital.digivice_purple": "Digivice Purple",
-  "item.digital.digivice_red": "Digivice Red",
-  "item.digital.digivice_yellow": "Digivice Yellow",
+  "item.digital.data_shard": "Data Shard",
+  "item.digital.data_finder": "Data Finder",
+  "item.digital.clay_coal": "Clay Coal",
 
-  "item.digital.huanglongore_ingot": "Huanglongore Ingot",
+  "block.digital.data_chunks": "Data Chunks",
+  "block.digital.corrupted_logs": "Corrupted Logs",
 
-  "itemGroup.digital.digimon": "Digimon"
+  "itemGroup.digital.digital-mobs": "Digital-Mobs",
+
+  "item.digital.data_finder.no_chrome": "No Data Chunk Found",
+
+  "item.digital.data_finder.no_valuables": "No Valuables Found!",
+  "item.digital.data_finder.tooltip.shift": "Right Click to find Data Chunks",
+  "item.digital.data_finder.tooltip": "Press §eSHIFT§r for more Information"
+
+
 }

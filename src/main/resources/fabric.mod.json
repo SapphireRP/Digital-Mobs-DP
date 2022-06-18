@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.brendon.digital.DigitalMobs"
+      "net.sapphire.digital.DigitalMobs"
     ]
   },
   "mixins": [
