@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "digital:block/digital_dirt"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "digital:block/digital_grass_bottom",
+    "top": "digital:block/digital_grass_top",
+    "side": "digital:block/digital_grass_side"
+  }
+}

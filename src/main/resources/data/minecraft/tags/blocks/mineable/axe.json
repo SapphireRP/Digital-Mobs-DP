@@ -1,5 +1,10 @@
 {
   "replace": false,
   "values": [
+    "digital:corrupted_log",
+    "digital:corrupted_wood",
+    "digital:stripped_corrupted_log",
+    "digital:stripped_corrupted_wood",
+    "digital:stripped_corrupted_planks"
   ]
 }

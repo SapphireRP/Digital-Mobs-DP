@@ -11,8 +11,9 @@ public class DigitalMobs implements ModInitializer {
 	public static final String MOD_ID = "digital";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+
 	@Override
-	public void  onInitialize() {
+	public void onInitialize() {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
@@ -20,3 +21,4 @@ public class DigitalMobs implements ModInitializer {
 		ModRegistries.registerModStuffs();
 	}
 }
+

@@ -14,7 +14,7 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/modid/digital_mobs_digimon_logo.png",
 
   "environment": "*",
   "entrypoints": {

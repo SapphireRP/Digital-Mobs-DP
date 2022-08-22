@@ -1,13 +1,6 @@
 {
   "replace": false,
   "values": [
-    "digital:data_chunks",
-    "digital:black_chrome_digizoid",
-    "digital:blue_chrome_digizoid",
-    "digital:brown_chrome_digizoid",
-    "digital:chrome_digizoid",
-    "digital:gold_chrome_digizoid",
-    "digital:obsidian_chrome_digizoid",
-    "digital:red_chrome_digizoid"
+    "digital:data_chunks"
   ]
 }

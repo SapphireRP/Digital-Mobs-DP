@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "digital:corrupted_logs"
+    }
+  ],
+  "result": {
+    "item": "digital:corrupted_planks",
+    "count": 4
+  }
+}

@@ -3,13 +3,10 @@ package net.sapphire.digital.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.FlowerBlock;
-import net.minecraft.entity.effect.StatusEffects;
 import net.sapphire.digital.DigitalMobs;
 import net.sapphire.digital.item.ModItemGroup;
 import net.minecraft.block.*;
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -25,10 +22,26 @@ import java.util.List;
 
 public class ModBlocks {
     public static final Block DATA_CHUNKS = registerBlock("data_chunks",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.DIGITALMOBS);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3f).requiresTool()), ModItemGroup.DIGITALMOBS);
 
-    public static final Block CORRUPTED_LOG = registerBlock("corrupted_logs",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4.0f).requiresTool()), ModItemGroup.DIGITALMOBS);
+    public static final Block DIGITAL_GRASS = registerBlock("digital_grass",
+            new Block(FabricBlockSettings.of(Material.PLANT).strength(0f)), ModItemGroup.DIGITALMOBS);
+    public static final Block DIGITAL_DIRT = registerBlock("digital_dirt",
+            new Block(FabricBlockSettings.of(Material.PLANT).strength(0f)), ModItemGroup.DIGITALMOBS);
+
+    public static final Block CORRUPTED_LOG = registerBlock("corrupted_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(0.10f).requiresTool()), ModItemGroup.DIGITALMOBS);
+    public static final Block CORRUPTED_WOOD = registerBlock("corrupted_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(0.10f).requiresTool()), ModItemGroup.DIGITALMOBS);
+    public static final Block STRIPPED_CORRUPTED_LOG = registerBlock("stripped_corrupted_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).strength(0.10f).requiresTool()), ModItemGroup.DIGITALMOBS);
+    public static final Block STRIPPED_CORRUPTED_WOOD = registerBlock("stripped_corrupted_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(0.10f).requiresTool()), ModItemGroup.DIGITALMOBS);
+
+    public static final Block CORRUPTED_PLANKS = registerBlock("corrupted_planks",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(0.10f).requiresTool()), ModItemGroup.DIGITALMOBS);
+    public static final Block CORRUPTED_LEAVES = registerBlock("corrupted_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.DIGITALMOBS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey) {
         registerBlockItem(name, block, group, tooltipKey);

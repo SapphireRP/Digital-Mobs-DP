@@ -1,18 +1,41 @@
 {
-  "item.digital.data_shard": "Data Shard",
-  "item.digital.data_finder": "Data Finder",
+  "item.digital.data_shard": "Data-Shard",
+
+  "item.digital.digi_copper": "Digi-Copper",
+  "item.digital.digi_iron": "Digi-Iron",
+  "item.digital.digi_silver": "Digi-Silver",
+  "item.digital.digi_gold": "Digi-Gold",
+  "item.digital.digi_whitegold": "Digi-WhiteGold",
+  "item.digital.mithril": "Mithril",
+
+
   "item.digital.clay_coal": "Clay Coal",
 
+
+  "item.digital.alter_orb": "Alter-Orb",
+  "item.digital.alter_shard": "Alter-Shard",
+  "item.digital.omni_orb": "Omni-Orb",
+  "item.digital.omni_shard": "Omni-Shard",
+
+
+  "item.digital.chaos_pickaxe": "Chaos Pickaxe",
+  "item.digital.chaos_hammer": "Chaos Hammer",
+  "item.digital.chaos_shovel": "Chaos Shovel",
+  "item.digital.chaos_sword": "Chaos Sword",
+
+
   "block.digital.data_chunks": "Data Chunks",
-  "block.digital.corrupted_logs": "Corrupted Logs",
-
-  "itemGroup.digital.digital-mobs": "Digital-Mobs",
-
-  "item.digital.data_finder.no_chrome": "No Data Chunk Found",
-
-  "item.digital.data_finder.no_valuables": "No Valuables Found!",
-  "item.digital.data_finder.tooltip.shift": "Right Click to find Data Chunks",
-  "item.digital.data_finder.tooltip": "Press §eSHIFT§r for more Information"
+  "block.digital.digital_grass": "Digital Grass",
+  "block.digital.digital_dirt": "Digital Dirt",
 
 
+  "block.digital.corrupted_log": "Corrupted Log",
+  "block.digital.corrupted_wood": "Corrupted wood",
+  "block.digital.stripped_corrupted_log": "stripped Corrupted Log",
+  "block.digital.stripped_corrupted_wood": "stripped Corrupted wood",
+  "block.digital.corrupted_planks": "Corrupted Planks",
+  "block.digital.corrupted_leaves": "Corrupted Leaves",
+
+
+  "itemGroup.digital.digital-mobs": "Digital-Mobs"
 }

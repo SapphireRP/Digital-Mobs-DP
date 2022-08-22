@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "digital:item/chrome_finder"
+    "layer0": "digital:item/omni_shard"
   }
 }
