@@ -8,8 +8,12 @@ import net.minecraft.util.registry.Registry;
 import net.sapphire.digital.DigitalMobs;
 import net.sapphire.digital.item.custom.ModAxeItem;
 import net.sapphire.digital.item.custom.ModFireAspectSwordItem;
-import net.sapphire.digital.item.custom.materials_ores.DigiCopperItem;
+import net.sapphire.digital.item.custom.materials_ores.*;
 import net.sapphire.digital.item.custom.ModPickaxeItem;
+import net.sapphire.digital.item.custom.obs.AlterOrbItem;
+import net.sapphire.digital.item.custom.obs.AlterShardItem;
+import net.sapphire.digital.item.custom.obs.OmniOrbItem;
+import net.sapphire.digital.item.custom.obs.OmniShardItem;
 
 public class ModItems {
 
@@ -20,37 +24,37 @@ public class ModItems {
             new DigiCopperItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item DIGI_IRON = registerItem("digi_iron",
-            new Item(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
+            new DigiIronItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item DIGI_SILVER = registerItem("digi_silver",
-            new Item(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
+            new DigiSilverItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item DIGI_GOLD = registerItem("digi_gold",
-            new Item(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
+            new DigiGoldItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item DIGI_WHITEGOLD = registerItem("digi_whitegold",
-            new Item(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
+            new DigiWhiteGoldItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item MITHRIL = registerItem("mithril",
-            new Item(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
+            new MithrilItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item ALTER_ORB = registerItem("alter_orb",
-            new Item(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
+            new AlterOrbItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item OMNI_ORB = registerItem("omni_orb",
-            new Item(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
+            new OmniOrbItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item ALTER_SHARD = registerItem("alter_shard",
-            new Item(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
+            new AlterShardItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item OMNI_SHARD = registerItem("omni_shard",
-            new Item(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
+            new OmniShardItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item CLAY_COAL = registerItem("clay_coal",
             new Item(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item CHAOS_SWORD = registerItem("chaos_sword",
-            new ModFireAspectSwordItem(ModToolMaterials.DIGI_COPPER, 8, 6f,
+            new ModFireAspectSwordItem(ModToolMaterials.DIGI_COPPER, 10, 8f,
                     new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item CHAOS_HAMMER = registerItem("chaos_hammer",
@@ -58,7 +62,7 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item CHAOS_SHOVEL = registerItem("chaos_shovel",
-            new ShovelItem(ModToolMaterials.DIGI_COPPER, 5, 3f,
+            new ShovelItem(ModToolMaterials.DIGI_COPPER, 3, 3f,
                     new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     public static final Item CHAOS_PICKAXE = registerItem("chaos_pickaxe",

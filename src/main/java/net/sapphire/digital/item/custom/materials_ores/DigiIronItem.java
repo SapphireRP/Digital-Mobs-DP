@@ -12,14 +12,14 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 
-public class DigiCopperItem extends Item {
-    public DigiCopperItem(Settings settings) {
+public class DigiIronItem extends Item {
+    public DigiIronItem(Settings settings) {
         super(settings.group(ModItemGroup.DIGITALMOBS));
     }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(new TranslatableText("Metal Similar To Brass In The Digital World."));
+        tooltip.add(new TranslatableText("Pure Iron In The Digital World."));
     }
 
 }

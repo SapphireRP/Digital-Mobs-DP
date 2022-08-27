@@ -1,4 +1,4 @@
-package net.sapphire.digital.item.custom.materials_ores;
+package net.sapphire.digital.item.custom.obs;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
@@ -12,14 +12,14 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 
-public class DigiCopperItem extends Item {
-    public DigiCopperItem(Settings settings) {
+public class OmniOrbItem extends Item {
+    public OmniOrbItem(Settings settings) {
         super(settings.group(ModItemGroup.DIGITALMOBS));
     }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(new TranslatableText("Metal Similar To Brass In The Digital World."));
+        tooltip.add(new TranslatableText("§9It Might Be Able To Let Two Digimon Become Their Omega Forms"));
     }
 
 }

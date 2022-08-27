@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "digital:item/materials_ore_icon"
+    "layer0": "digital:item/digi_silver"
   }
 }
