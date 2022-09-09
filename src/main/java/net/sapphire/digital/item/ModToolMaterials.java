@@ -18,7 +18,7 @@ import net.minecraft.recipe.Ingredient;
 
     @Override
     public float getAttackDamage() {
-        return 50;
+        return 8;
     }
 
     @Override
@@ -28,7 +28,7 @@ import net.minecraft.recipe.Ingredient;
 
     @Override
     public int getEnchantability() {
-        return 17;
+        return 5;
     }
 
     @Override

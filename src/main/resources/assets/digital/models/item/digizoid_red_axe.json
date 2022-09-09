@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "digital:item/chaos_sword"
+    "layer0": "digital:item/digizoid_red_axe"
   }
 }

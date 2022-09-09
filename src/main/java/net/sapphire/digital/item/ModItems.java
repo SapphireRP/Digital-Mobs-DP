@@ -8,8 +8,8 @@ import net.minecraft.util.registry.Registry;
 import net.sapphire.digital.DigitalMobs;
 import net.sapphire.digital.item.custom.ModAxeItem;
 import net.sapphire.digital.item.custom.ModFireAspectSwordItem;
-import net.sapphire.digital.item.custom.materials_ores.*;
 import net.sapphire.digital.item.custom.ModPickaxeItem;
+import net.sapphire.digital.item.custom.materials_ores.*;
 import net.sapphire.digital.item.custom.obs.AlterOrbItem;
 import net.sapphire.digital.item.custom.obs.AlterShardItem;
 import net.sapphire.digital.item.custom.obs.OmniOrbItem;
@@ -38,6 +38,9 @@ public class ModItems {
     public static final Item MITHRIL = registerItem("mithril",
             new MithrilItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
+    public static final Item HUANGLONG_INGOT = registerItem("huanglong_ingot",
+            new DigiIronItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
+
     public static final Item ALTER_ORB = registerItem("alter_orb",
             new AlterOrbItem(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
@@ -53,20 +56,20 @@ public class ModItems {
     public static final Item CLAY_COAL = registerItem("clay_coal",
             new Item(new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
-    public static final Item CHAOS_SWORD = registerItem("chaos_sword",
+    public static final Item DIGIZOID_RED_SWORD = registerItem("digizoid_red_sword",
             new ModFireAspectSwordItem(ModToolMaterials.DIGI_COPPER, 10, 8f,
                     new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
-    public static final Item CHAOS_HAMMER = registerItem("chaos_hammer",
+    public static final Item DIGIZOID_RED_AXE = registerItem("digizoid_red_axe",
             new ModAxeItem(ModToolMaterials.DIGI_COPPER, 8, 6f,
                     new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
-    public static final Item CHAOS_SHOVEL = registerItem("chaos_shovel",
-            new ShovelItem(ModToolMaterials.DIGI_COPPER, 3, 3f,
+    public static final Item DIGIZOID_RED_PICKAXE = registerItem("digizoid_red_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.DIGI_COPPER, 5, 3f,
                     new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
-    public static final Item CHAOS_PICKAXE = registerItem("chaos_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.DIGI_COPPER, 5, 3f,
+    public static final Item DIGIZOID_RED_SHOVEL = registerItem("digizoid_red_shovel",
+            new ShovelItem(ModToolMaterials.DIGI_COPPER, 3, 3f,
                     new FabricItemSettings().group(ModItemGroup.DIGITALMOBS)));
 
     private  static  Item registerItem(String name, Item item) {

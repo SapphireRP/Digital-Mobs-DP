@@ -6,6 +6,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.sapphire.digital.DigitalMobs;
 
+
 public class ModItemGroup {
     public static final ItemGroup DIGITALMOBS = FabricItemGroupBuilder.build(new Identifier(DigitalMobs.MOD_ID, "digital-mobs"),
             () -> new ItemStack(ModItems.DATA_SHARD));

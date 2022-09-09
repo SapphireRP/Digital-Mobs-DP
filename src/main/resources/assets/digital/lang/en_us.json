@@ -7,7 +7,7 @@
   "item.digital.digi_gold": "Digi-Gold",
   "item.digital.digi_whitegold": "Digi-WhiteGold",
   "item.digital.mithril": "Mithril",
-
+  "item.digital.huanglong_ingot": "Huanglong Ingot",
 
   "item.digital.clay_coal": "Clay Coal",
 
@@ -18,15 +18,20 @@
   "item.digital.omni_shard": "Omni-Shard",
 
 
-  "item.digital.chaos_pickaxe": "Chaos Pickaxe",
-  "item.digital.chaos_hammer": "Chaos Hammer",
-  "item.digital.chaos_shovel": "Chaos Shovel",
-  "item.digital.chaos_sword": "Chaos Sword",
+  "item.digital.digizoid_red_pickaxe": "Digizoid Pickaxe",
+  "item.digital.digizoid_red_axe": "Digizoid Axe",
+  "item.digital.digizoid_red_shovel": "Digizoid Shovel",
+  "item.digital.digizoid_red_sword": "Digizoid Sword",
 
 
   "block.digital.data_chunks": "Data Chunks",
+  "block.digital.huanglong_ore": "Huanglong Ore",
+  "block.digital.digicopper_ore": "DigiCopper Ore",
+  "block.digital.digiruby_ore": "DigiRuby Ore",
+  "block.digital.mithril_ore": "Mithril Ore",
   "block.digital.digital_grass": "Digital Grass",
   "block.digital.digital_dirt": "Digital Dirt",
+  "block.digital.digital_stone": "Digital Stone",
 
 
   "block.digital.corrupted_log": "Corrupted Log",

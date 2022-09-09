@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "digital:block/mithril_ore" }
+  }
+}

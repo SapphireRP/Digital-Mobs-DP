@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 500,
+  "experience": 0.5,
+  "group": "coal",
+  "ingredient": {
+    "item": "digital:digicopper_ore"
+  },
+  "result": "digital:digi_copper"
+}

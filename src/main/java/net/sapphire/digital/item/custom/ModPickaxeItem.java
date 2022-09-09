@@ -1,6 +1,5 @@
 package net.sapphire.digital.item.custom;
 
-import net.minecraft.item.AxeItem;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
 

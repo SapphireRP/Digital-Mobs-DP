@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 500,
+  "experience": 0.5,
+  "group": "coal",
+  "ingredient": {
+    "item": "digital:mithril_ore"
+  },
+  "result": "digital:mithril"
+}

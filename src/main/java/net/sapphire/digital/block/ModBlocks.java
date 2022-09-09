@@ -2,9 +2,6 @@ package net.sapphire.digital.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Blocks;
-import net.sapphire.digital.DigitalMobs;
-import net.sapphire.digital.item.ModItemGroup;
 import net.minecraft.block.*;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
@@ -12,17 +9,30 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
+import net.sapphire.digital.DigitalMobs;
+import net.sapphire.digital.item.ModItemGroup;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
 public class ModBlocks {
     public static final Block DATA_CHUNKS = registerBlock("data_chunks",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(3f).requiresTool()), ModItemGroup.DIGITALMOBS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.DIGITALMOBS);
+
+    public static final Block HUANGLONG_ORE = registerBlock("huanglong_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.DIGITALMOBS);
+
+    public static final Block DIGICOPPER_ORE = registerBlock("digicopper_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.DIGITALMOBS);
+
+    public static final Block MITHRIL_ORE = registerBlock("mithril_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.DIGITALMOBS);
+
+    public static final Block DIGITAL_STONE = registerBlock("digital_stone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.DIGITALMOBS);
 
     public static final Block DIGITAL_GRASS = registerBlock("digital_grass",
             new Block(FabricBlockSettings.of(Material.PLANT).strength(0f)), ModItemGroup.DIGITALMOBS);
@@ -53,7 +63,7 @@ public class ModBlocks {
                 new BlockItem(block, new FabricItemSettings().group(group)) {
                     @Override
                     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-                        tooltip.add(new TranslatableText(tooltipKey));
+                        tooltip.add((Text) Text.translatable(tooltipKey));
                     }
                 });
     }
