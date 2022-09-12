@@ -18,7 +18,7 @@ public class OmniOrbItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add((Text) Text.literal("§9It Might Be Able To Let Two Digimon Become Their Omega Forms"));
+        tooltip.add((Text) Text.literal("§9A Orb With Power Of Omega Digivolution"));
     }
 
 }

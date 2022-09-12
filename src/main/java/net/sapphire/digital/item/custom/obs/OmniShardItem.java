@@ -18,7 +18,7 @@ public class OmniShardItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add((Text) Text.literal("§1Wonder What Would Happen If You Fuse Two Of Them Together"));
+        tooltip.add((Text) Text.literal("§1The Shard Needs Two Of It Self"));
     }
 
 }

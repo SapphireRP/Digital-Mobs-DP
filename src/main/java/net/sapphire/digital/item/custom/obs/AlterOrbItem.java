@@ -18,7 +18,7 @@ public class AlterOrbItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add((Text) Text.literal("§eIt Might Be Able To Let One Digimon Become Their Alter Forms"));
+        tooltip.add((Text) Text.literal("§eA Orb With Power Of Alter Digivolution"));
     }
 
 }
