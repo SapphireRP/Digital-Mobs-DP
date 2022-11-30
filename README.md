@@ -6,9 +6,8 @@
     <a href="">
         <img src="https://img.shields.io/badge/-Mod Version 0.0.3 Dev Build-gray?style=for-the-badge&labelColor=blue&labelWidth=15&logo=appveyor&logoColor=white">
     </a>
-        [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z5EYEDE)
 </h1>
-    
+            [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z5EYEDE)
 ## DIGITAL-MOBS (DIGIMON PROTOCAL)
 Digital-Mobs (DP) is a fanmade mod created by SapphireRP
 
